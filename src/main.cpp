@@ -5,8 +5,6 @@
 #include "bsp.hpp"
 #include "credentials.hpp"
 #include "delayed_task.hpp"
-#include "scheduler.hpp"
-#include "time_requester.hpp"
 
 constexpr std::string_view ENDPOINT_URL = "http://worldtimeapi.org/api/timezone/Europe/Warsaw";
 
