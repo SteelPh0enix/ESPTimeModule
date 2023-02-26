@@ -15,6 +15,6 @@ Responds with `NOT_CONNECTED` if ESP is not connected to WiFi.
 
 Responds with current time and date in format `YYYY-MM-DD HH:MM:SS` (with trailing zeros, if any) if connected to WiFi and request to the time server is successful.
 
-Responds with `REQUEST_ERROR:X` if request fails, where `X` is replaced with error code.
+Responds with `REQUEST_ERROR:X` if request fails, where `X` is replaced with error code (signed base-10 decimal, negative means internal ESP request error, positive means HTTP error).
 
 Responds with `NO_WIFI` if not connected to wifi.
