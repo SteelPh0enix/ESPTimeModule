@@ -13,7 +13,7 @@ constexpr std::string_view ENDPOINT_URL = "http://worldtimeapi.org/api/timezone/
 void request_time(std::string_view endpoint) {
   WiFiClient wifi_client;
   HTTPClient http;
-  http.setUserAgent("twoj stary najebany");
+  http.setUserAgent("twoj stary pijany");
   http.begin(wifi_client, endpoint.data());
 
   int response_code = http.GET();
